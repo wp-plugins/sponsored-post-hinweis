@@ -4,7 +4,7 @@ Donate link: http://www.gernot-gawlik.de
 Tags: seo
 Requires at least: 3.0.1
 Tested up to: 3.4
-Stable tag: trunk
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,3 +18,14 @@ Dieses PlugIn setzt (default) einfach ein [Sponsored Post] vor alle Artikel. Üb
 
 1. Upload `contenthinweis.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Changelog ==
+
+= 1.2 =
+* Code Optimierungen und Bugfixes
+
+= 1.1 =
+* Readme Optimierung
+
+= 1.0 =
+* Readme Optimierung
