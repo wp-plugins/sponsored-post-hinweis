@@ -18,3 +18,8 @@ Dieses PlugIn setzt (default) einfach ein [Sponsored Post] vor alle Artikel. Üb
 
 1. Upload `contenthinweis.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Screenshots ==
+
+1. Das Plugin im Einsatz
+2. Ausblenden des Hinweises bei einem speziellen Artikel über benutzerdefinierte Felder
