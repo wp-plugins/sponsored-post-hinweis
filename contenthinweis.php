@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Sponsored_Post_Hinweis
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Sponsored Post Hinweis
-Plugin URI: http://wordpress.org/extend/plugins/contenthinweis/
+Plugin URI: http://wordpress.org/plugins/sponsored-post-hinweis/
 Description: Dieses PlugIn setzt (default) einfach ein [Sponsored Post] vor alle Artikel. Über ein benutzerdefiniertes Feld mit dem Namen "hinweis" kann als Wert ein beliebiger Text hinterlegt werden. Beim hinterlegten Wert "no" kann der Hinweis für den einzelnen Artikel ausgeblendet werden.
 Author: Gernot Gawlik
-Version: 1.0
+Version: 1.1
 Author URI: http://www.krick-interactive.com
 */
 
@@ -36,11 +36,9 @@ function contenthinweis($content)
 		}
 	}
 
-	//if(!is_page()) $content = $sponsoredhinweis . $content;
-
 	if (!is_page())
-        // Sponsored Hinweis davor setzen
-        $content = trim(sprintf('%s%s',$sponsoredhinweis, $content));
+	// Sponsored Hinweis davor setzen
+	$content = trim(sprintf('%s%s',$sponsoredhinweis, $content));
 	// Absätze korrigieren
 	$content = "<p>".preg_replace('/'.$search.'/', "", $content, 1);
 
