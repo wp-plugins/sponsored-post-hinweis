@@ -29,6 +29,7 @@ NEU: Über das Admin-Menü kann ein beliebiger Standardtext, sowie Präfix und S
 
 1. Das Plugin im Einsatz
 2. Ausblenden des Hinweises bei einem speziellen Artikel über benutzerdefinierte Felder
+3. Einstellmöglichkeiten
 
 == Changelog ==
 
