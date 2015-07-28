@@ -14,7 +14,7 @@ Dieses PlugIn setzt (default) einfach ein [Sponsored Post] vor alle Artikel.
 
 Dieses PlugIn setzt (default) einfach ein [Sponsored Post] vor alle Artikel. Über ein benutzerdefiniertes Feld mit dem Namen "hinweis" kann als Wert ein beliebiger Text hinterlegt werden. Beim hinterlegten Wert "no" kann der Hinweis für den einzelnen Artikel ausgeblendet werden.
 
-NEU: Über das Admin-Menü kann ein beliebiger Standardtext, sowie Präfix und Suffix hinterlegt werden. Z. B. <br/><br/>
+NEU: Über das Admin-Menü kann ein beliebiger Standardtext, sowie Präfix und Suffix hinterlegt werden. Z. B.
 
 <pre>[Gastartikel]<br/>
 *Sponsored Post*<br/>
